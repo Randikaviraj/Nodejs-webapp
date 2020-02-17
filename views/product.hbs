@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Produt Store</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+
+    
+
+    <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col mb-4" >
+                            <div class="card card border-warning mb-3" style="max-width: 18rem;" >
+                                <img src="https://5.imimg.com/data5/VN/YP/MY-33296037/orange-600x600-500x500.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Orange</h5>
+                                    
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Price :Rs 55.00</li>
+                                    
+                                </ul>
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-success" id="b1">Buy</button>
+                                    <button type="button" class="btn btn-danger" id="q1" value="0">Quntity +</button>
+                                    <button type="button" class="btn btn-warning" id="r1" >Reset</button>
+                                </div>
+                            </div>
+                    </div>
+
+
+                    <div class="col mb-4">
+                            <div class="card card border-warning mb-3" style="max-width: 18rem;" >
+                                <img src="https://i5.walmartimages.ca/images/Enlarge/094/514/6000200094514.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Apple</h5>
+                                    
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Price :Rs 80.00</li>
+                                    
+                                </ul>
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-success" id="b2">Buy</button>
+                                    <button type="button" value="0" class="btn btn-danger" id="q2">Quntity +</button>
+                                    <button type="button" class="btn btn-warning" id="r2" >Reset</button>
+                                </div>
+                            </div>
+                    </div>
+
+
+                    <div class="col mb-4">
+                            <div class="card card border-warning mb-3" style="max-width: 18rem;" >
+                                <img src="https://charismaticplanet.com/wp-content/uploads/2018/05/strawberries-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Strabary</h5>
+                                    
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Price :Rs 60.00</li>
+                                    
+                                </ul>
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-success" id="b3">Buy</button>
+                                    <button type="button" value="0" class="btn btn-danger" id="q3">Quntity +</button>
+                                    <button type="button" class="btn btn-warning" id="r3" >Reset</button>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col mb-4">
+                            <div class="card card border-warning mb-3" style="max-width: 18rem;">
+                                <img src="https://previews.123rf.com/images/kovalevaka/kovalevaka1409/kovalevaka140900014/31606320-big-watermelon-and-slice-isolated-on-white-background-as-package-design-element.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Watermelon</h5>
+                                    
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Price :Rs 100.00</li>
+                                    
+                                </ul>
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-success" id="b4">Buy</button>
+                                    <button type="button" value="0" class="btn btn-danger" id="q4">Quntity +</button>
+                                    <button type="button" class="btn btn-warning" id="r4" >Reset</button>
+                                </div>
+                            </div>
+                    </div
+
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<div>
+    <table class="table table-hover table-dark" >
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Selected Product Name</th>
+      <th scope="col">Quantity</th>
+      <th scope="col">Total Cash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Orange</td>
+      <td id="o1">0</td>
+      <td id="o2">0</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Apple</td>
+      <td id="a1">0</td>
+      <td id="a2">0</td>
+    </tr>
+     <tr>
+      <th scope="row">3</th>
+      <td>Strabary</td>
+      <td id="s1">0</td>
+      <td id="s2">0</td>
+    </tr>
+     <tr>
+      <th scope="row">4</th>
+      <td>Watermelon</td>
+      <td id="w1">0</td>
+      <td id="w2">0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<script>
+    document.getElementById("r1").addEventListener("click",function(){
+        document.getElementById("q1").setAttribute("value",0);
+        document.getElementById("q1").innerHTML="Quntity +";
+        document.getElementById("o1").innerHTML=0;
+        document.getElementById("o2").innerHTML=0;
+        
+    });
+     document.getElementById("r2").addEventListener("click",function(){
+        document.getElementById("q2").setAttribute("value",0);
+        document.getElementById("q2").innerHTML="Quntity +";
+        document.getElementById("a1").innerHTML=0;
+        document.getElementById("a2").innerHTML=0;
+    });
+     document.getElementById("r3").addEventListener("click",function(){
+        document.getElementById("q3").setAttribute("value",0);
+        document.getElementById("q3").innerHTML="Quntity +";
+        document.getElementById("s1").innerHTML=0;
+        document.getElementById("s2").innerHTML=0;
+    });
+     document.getElementById("r4").addEventListener("click",function(){
+        document.getElementById("q4").setAttribute("value",0);
+        document.getElementById("q4").innerHTML="Quntity +";
+        document.getElementById("w1").innerHTML=0;
+        document.getElementById("w2").innerHTML=0;
+    });
+
+
+
+
+    document.getElementById("q1").addEventListener("click",function(){
+        var x=document.getElementById("q1").getAttribute("value")
+        x=Number(x)+1
+        document.getElementById("q1").setAttribute("value",x)
+        document.getElementById("q1").innerHTML="Quntity "+x;
+        
+        document.getElementById("b1").addEventListener("click",()=>{
+            document.getElementById("o1").innerHTML=x;
+            document.getElementById("o2").innerHTML=x*55;})
+        });
+       
+    document.getElementById("q2").addEventListener("click",function(){
+        var x=document.getElementById("q2").getAttribute("value")
+        x=Number(x)+1
+        document.getElementById("q2").setAttribute("value",x)
+        document.getElementById("q2").innerHTML="Quntity "+x;
+        
+        document.getElementById("b2").addEventListener("click",()=>{
+            document.getElementById("a1").innerHTML=x;
+            document.getElementById("a2").innerHTML=x*55;})
+        });
+
+    document.getElementById("q3").addEventListener("click",function(){
+        var x=document.getElementById("q3").getAttribute("value")
+        x=Number(x)+1
+        document.getElementById("q3").setAttribute("value",x)
+        document.getElementById("q3").innerHTML="Quntity "+x;
+        
+        document.getElementById("b3").addEventListener("click",()=>{
+            document.getElementById("s1").innerHTML=x;
+            document.getElementById("s2").innerHTML=x*55;})
+        });
+
+
+    document.getElementById("q4").addEventListener("click",function(){
+        var x=document.getElementById("q4").getAttribute("value")
+        x=Number(x)+1
+        document.getElementById("q4").setAttribute("value",x)
+        document.getElementById("q4").innerHTML="Quntity "+x;
+        document.getElementById("b4").addEventListener("click",()=>{
+            document.getElementById("w1").innerHTML=x;
+            document.getElementById("w2").innerHTML=x*55;})
+        });
+</script>
+    </body>
+</html>
